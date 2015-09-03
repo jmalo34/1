@@ -1,0 +1,19 @@
+SPEC 1
+A word is found in a string
+Input:  cookie; Seven batches of cookies were baked.
+Output:  1
+
+SPEC 2
+Partial matches are not counted
+Input: cookie; There were seven types of cookies on the cookie platter.
+Output: 1
+
+SPEC 3
+The string is not case-sensitive
+Input:  cookie; Cookie World sold seven types of cookies at each of their cookie stores.
+Output:  2
+
+SPEC 4
+Non-alphabetic characters are ignored
+Input: ball; One of the most commonly heard phrases in baseball, "Play ball!", is shouted immediately prior to the ball game commencing.
+Output:  2

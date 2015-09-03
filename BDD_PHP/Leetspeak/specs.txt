@@ -1,0 +1,22 @@
+SPEC 1
+The letter "e" should be replaced with "3"
+Input:  frisbee
+Output:  frisb33
+
+
+SPEC 2
+The letter "o" should be replaced with "0"
+Input:  soccer
+Output:  s0ccer
+
+
+SPEC 3
+The capital letter (not the lower case), "I", should be replaced with "1"
+Input:  The Incredibles
+Output:  Th3 1ncr3dibl3s
+
+
+SPEC 4
+All instances of "s" should be replaced with "z" unless it is the first letter of the word
+Input:  Street Fighters
+Output:  Str33t Fighterz

@@ -1,0 +1,66 @@
+$porsche = new Car("2014 Porsche 911", "images/porsche.jpg", 114991, 7864);
+$ford = new Car("2011 Ford F450", "images/ford.jpg", 55995, 14241);
+$lexus = new Car("2013 Lexus RC 350", "images/lexus.jpg", 44700, 20000);
+$mercedes = new Car("Mercedes Benz CLS550", "images/mercedes.jpg", 399000, 37979);
+
+$cars = array($porsche, $ford, $lexus, $mercedes);
+
+$cars_matching_search = array();
+foreach ($cars as $car)
+{
+    if ($car->worthBuying($_GET["price"], $_GET["mileage"]))
+    {
+        array_push($cars_matching_search, $car);
+    }
+}
+
+function worthBuying($max_price, $max_miles, $cars)
+{
+    if (($this->price < $max_price && $this->miles < $max_miles) || !is_array($max_price, $max_miles)) return array ();
+    $cars_matching_search = array ();
+    foreach ($cars as $car)
+    {
+        $wanted = false;
+        foreach ($match as $k => $v)
+        {
+            if (is_object($car) && isset($car->$k) && $car->$k == $v)
+            {
+                $wanted = true;
+            }
+            else
+            {
+                $wanted = $false;
+                break;
+            };
+        };
+        if($wanted) $cars_matching_search[] = $object;
+    };
+    return $cars_matching_search;
+};
+
+function worthBuying($max_price, $max_miles)
+{
+    $cars = array($porsche, $ford, $lexus, $mercedes);
+
+    foreach ($cars as $car)
+    {
+        if ($max_price > $this->miles && $max_miles > $this->miles)
+        {
+            return $car;
+        }
+    }
+    return false;
+
+}
+
+        function worthBuying($max_price, $max_miles)
+        {
+            if($this->price < $max_price && $this->miles < $max_miles)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }

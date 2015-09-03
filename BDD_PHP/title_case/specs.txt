@@ -1,0 +1,23 @@
+all letters should be lower case
+Input:  thE LITtLe Mermaid
+Output:  the little mermaid
+
+It capitalizes the first letter of each word
+Input: the little mermaid
+Output: The Little Mermaid
+
+It does not capitalizes conjunctions, etc.
+Input:  The Little Mermaid And Sea Adventures
+Output:  the Little Mermaid and Sea Adventures
+
+It capitalizes the "do not capitalize" words, only if they are the first word in a title_cased
+Input:  the Little Mermaid and Sea Adventures
+Output: The Little Mermaid and Sea Adventures
+
+It manages unique case entries
+Input: Beyonce Knowles-carter
+Output:  Beyonce Knowles-Carter
+
+It handles non-letter characters
+Input:  2015 World Tour
+Output:  2015 World Tour
