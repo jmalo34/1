@@ -1,0 +1,11 @@
+SPEC 1:  Single-word titles should be capitalized
+Input:  house
+Output:  House
+
+SPEC 2:  Each word in the title should be capitalized
+Input:  House arrest
+Output:  House Arrest
+
+SPEC 3:
+Input:
+Output:
