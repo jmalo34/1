@@ -1,4 +1,4 @@
-SPEC 1:  Single-word titles should be capitalized
+SPEC 1:  The first word in a title should always be capitalized
 Input:  house
 Output:  House
 
@@ -6,6 +6,14 @@ SPEC 2:  Each word in the title should be capitalized
 Input:  House arrest
 Output:  House Arrest
 
-SPEC 3:
+SPEC 3:  Any conjunctions, etc. that are not the first word in a title should not be capitalized 
+Input:  the lady and the tramp
+Output:  The Lady and the Tramp
+
+SPEC 4:  Punctuation marks and numeric characters remain as-is
+Input:  101 dalmatians & friends
+Output:  101 Dalmatians & Friends
+
+SPEC 5:
 Input:
 Output:
