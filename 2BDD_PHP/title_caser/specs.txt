@@ -6,14 +6,14 @@ SPEC 2:  Each word in the title should be capitalized
 Input:  House arrest
 Output:  House Arrest
 
-SPEC 3:  Any conjunctions, etc. that are not the first word in a title should not be capitalized 
-Input:  the lady and the tramp
-Output:  The Lady and the Tramp
-
-SPEC 4:  Punctuation marks and numeric characters remain as-is
+SPEC 3:  Punctuation marks and numeric characters remain as-is
 Input:  101 dalmatians & friends
 Output:  101 Dalmatians & Friends
 
-SPEC 5:
-Input:
-Output:
+SPEC 4:  Any conjunctions, prepositions, etc. that are not the first word in a title should not be capitalized
+Input:  the lady and the tramp
+Output:  The Lady and the Tramp
+
+SPEC 5:  All letters should be lower-cased unless they are the first letter in a word
+Input:  THE LAdy and THE TRAMP
+Output:  The Lady and the Tramp
